@@ -22,7 +22,7 @@ Todo:
 - Profiling/optimization, can we otimize the responsiveness similar to: [elijah-millers-nec-v30-on-a-pi-hat/](https://virtuallyfun.com/wordpress/2021/06/04/elijah-millers-nec-v30-on-a-pi-hat/)    
 
 How to build/Run this
-1. Upload to a Rasperry PI
+1. Upload/clone this project onto a Rasperry PI
 2. Install build-essential, cmake, g++
 2. Install the latest fork of Wiring PI [WiringPI Fork](https://github.com/WiringPi)
 3. Install ncurses development libraries, typically:
