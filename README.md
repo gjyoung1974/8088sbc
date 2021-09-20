@@ -21,7 +21,18 @@ Todo:
 - can we port the UI to SDL vs nCurses similar to the V2 version of the project? [raspberry-pi-second-projec](https://www.homebrew8088.com/home/raspberry-pi-second-project)  
 - Profiling/optimization, can we otimize the responsiveness similar to: [elijah-millers-nec-v30-on-a-pi-hat/](https://virtuallyfun.com/wordpress/2021/06/04/elijah-millers-nec-v30-on-a-pi-hat/)    
 
-[comment]: <> (https://virtuallyfun.com/wordpress/2021/06/04/elijah-millers-nec-v30-on-a-pi-hat/)
+How to build/Run this
+1. Upload to a Rasperry PI
+2. Install build-essential, cmake, g++
+2. Install the latest fork of Wiring PI [WiringPI Fork](https://github.com/WiringPi)
+3. Install ncurses development libraries, typically:
+``sh
+$ sudo apt install libncurses-dev
+``
+4. Run the cmake.sh script
+look in the cmake folder and find the binry.
+
+You will need to find your own floppy and hard drive images (floppy.img and hdd.img)
 
 ---
 2021 - gjyoung1974@gmail.com
