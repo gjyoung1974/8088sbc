@@ -1,7 +1,7 @@
 # 8088 Single Board Computer
 
 What is this?
-- This is a fork of the Excellent work of Elijah Miller of [homebrew8088](https://www.homebrew8088.com/home/raspberry-pi)
+- This is a fork of the excellent work of Elijah Miller of [homebrew8088](https://www.homebrew8088.com/home/raspberry-pi)
 
 Why?
 - I wanted a physical hardware device to run simple ia16 assembly language on
